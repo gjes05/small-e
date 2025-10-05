@@ -24,12 +24,13 @@ We combined several frameworks and devices to bring S.M.A.L.L-E to life. Two **J
 
 ### Key Components
 - **DeepFace** – Facial detection and tracking  
-- **Jetson Xavier NX** – Speech recognition and transmitting camera data to Raspberry Pi  
+- **Jetson Xavier NX** – Speech recognition and processing camera data to Raspberry Pi  
 - **Raspberry Pi + Servo Motors** – Camera motion control  
 - **Whisper** – Speech-to-text processing  
 - **Gemini API** – Intelligent language understanding and response generation  
 - **ElevenLabs API** – Realistic text-to-speech output  
-- **Python 3.8-3.11 & VS Code** – Integration and testing  
+- **Python 3.8-3.11 & VS Code** – Integration and testing
+- **Intel Realsense d435** - Camera input
 
 The system communicates through **lightweight network calls** between the camera module, Jetson units, and Raspberry Pi’s control program, forming a **unified audio–visual interaction pipeline**.
 
